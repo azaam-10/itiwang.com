@@ -34,7 +34,7 @@ const BottomNav: React.FC<BottomNavProps> = ({ activeTab, onTabChange }) => {
   ];
 
   return (
-    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] h-[60px] bg-white border-t border-gray-100 flex items-center justify-around z-50 px-1 shadow-[0_-2px_6px_rgba(0,0,0,0.015)]">
+    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] h-[64px] bg-white border-t border-gray-100 flex items-center justify-around z-50 px-1 bottom-nav-shadow">
       {tabs.map((tab) => (
         <NavItem
           key={tab.label}

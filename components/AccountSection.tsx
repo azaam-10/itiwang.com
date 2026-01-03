@@ -6,7 +6,7 @@ const AccountSection: React.FC = () => {
       <div className="flex flex-col text-white">
         <span className="text-[14px] font-bold mb-4 opacity-90">My Account</span>
         <div className="flex items-baseline">
-          <span className="text-[12px] font-bold mr-2 opacity-70">USDT</span>
+          <span className="text-[12px] font-bold mr-2 opacity-80">USDT</span>
           <span className="text-[46px] font-bold leading-none">0</span>
         </div>
       </div>

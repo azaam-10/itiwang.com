@@ -18,15 +18,15 @@ const Header: React.FC = () => {
 
         <div className="flex flex-col">
           <div className="flex items-center">
-            <span className="text-[#FFFFFF] text-[22px] font-bold tracking-tight">SANDRA122385</span>
-            <div className="vip-badge">VIP 0</div>
+            <span className="text-[#FFFFFF] text-[20px] font-bold tracking-tight">0995039296</span>
+            <div className="vip-badge">VIP0</div>
           </div>
-          <span className="text-white/80 text-[13px] mt-0.5 font-medium">Invitation code: 804461</span>
+          <span className="text-white/80 text-[13px] mt-0.5 font-medium">Invitation code: 616535</span>
         </div>
       </div>
 
       <div className="pt-2 pr-0.5">
-        <div className="w-9 h-9 border-2 border-white/80 rounded-full flex items-center justify-center">
+        <div className="w-9 h-9 border-2 border-white/80 rounded-full flex items-center justify-center opacity-90">
           <div className="flex flex-col space-y-[2px] items-center">
              <div className="w-3.5 h-[2px] bg-white rounded-full"></div>
              <div className="w-3.5 h-[2px] bg-white rounded-full"></div>
