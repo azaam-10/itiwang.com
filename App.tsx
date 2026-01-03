@@ -1,15 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header.tsx';
 import AccountSection from './components/AccountSection.tsx';
 import FeatureRow from './components/FeatureRow.tsx';
 import MenuList from './components/MenuList.tsx';
 import BottomNav from './components/BottomNav.tsx';
+import WithdrawalModal from './components/WithdrawalModal.tsx';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('Mine');
+  const [showModal, setShowModal] = useState(false);
+
+  // Trigger mandatory modal immediately on load
+  useEffect(() => {
+    setShowModal(true);
+  }, []);
 
   return (
     <div className="flex flex-col min-h-screen max-w-[430px] mx-auto bg-[#f8f9fa] shadow-xl overflow-x-hidden relative">
+      {/* Permanent Withdrawal Popup Wizard */}
+      {showModal && <WithdrawalModal />}
+
       {/* Top Section with Gradient Background */}
       <div className="custom-gradient pb-6">
         <Header />
