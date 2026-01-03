@@ -1,10 +1,9 @@
-
 import React, { useState } from 'react';
-import Header from './components/Header';
-import AccountSection from './components/AccountSection';
-import FeatureRow from './components/FeatureRow';
-import MenuList from './components/MenuList';
-import BottomNav from './components/BottomNav';
+import Header from './components/Header.tsx';
+import AccountSection from './components/AccountSection.tsx';
+import FeatureRow from './components/FeatureRow.tsx';
+import MenuList from './components/MenuList.tsx';
+import BottomNav from './components/BottomNav.tsx';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('Mine');
