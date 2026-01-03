@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface BottomNavProps {
@@ -18,24 +17,24 @@ const NavItem: React.FC<{
     }`}
     onClick={onClick}
   >
-    <div className={`text-[24px] mb-1 ${isActive ? 'font-black' : 'font-normal'}`}>
+    <div className={`text-[21px] mb-1 ${isActive ? 'font-bold' : 'font-normal opacity-80'}`}>
       <i className={icon}></i>
     </div>
-    <span className={`text-[11px] font-bold ${isActive ? '' : 'font-medium'}`}>{label}</span>
+    <span className={`text-[10px] font-bold ${isActive ? '' : 'font-semibold'}`}>{label}</span>
   </div>
 );
 
 const BottomNav: React.FC<BottomNavProps> = ({ activeTab, onTabChange }) => {
   const tabs = [
-    { label: 'Home', icon: 'fa-solid fa-house' },
+    { label: 'Home', icon: 'fa-solid fa-house-chimney' },
     { label: 'Service', icon: 'fa-solid fa-headset' },
     { label: 'Menu', icon: 'fa-solid fa-bag-shopping' },
-    { label: 'Record', icon: 'fa-solid fa-calendar' },
-    { label: 'Mine', icon: 'fa-solid fa-user' },
+    { label: 'Record', icon: 'fa-solid fa-calendar-check' },
+    { label: 'Mine', icon: 'fa-solid fa-user-large' },
   ];
 
   return (
-    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] h-[64px] bg-white border-t border-gray-100 flex items-center justify-around z-50 px-2 shadow-[0_-2px_10px_rgba(0,0,0,0.02)]">
+    <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] h-[60px] bg-white border-t border-gray-100 flex items-center justify-around z-50 px-1 shadow-[0_-2px_6px_rgba(0,0,0,0.015)]">
       {tabs.map((tab) => (
         <NavItem
           key={tab.label}
