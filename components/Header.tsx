@@ -18,7 +18,7 @@ const Header: React.FC = () => {
 
         <div className="flex flex-col">
           <div className="flex items-center">
-            <span className="text-[#FFFFFF] text-[20px] font-bold tracking-tight">0995039296</span>
+            <span className="text-[#FFFFFF] text-[20px] font-bold tracking-tight">Mnour999</span>
             <div className="vip-badge">VIP0</div>
           </div>
           <span className="text-white/80 text-[13px] mt-0.5 font-medium">Invitation code: 616535</span>
