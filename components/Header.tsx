@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Header: React.FC = () => {
@@ -21,7 +22,7 @@ const Header: React.FC = () => {
             <span className="text-[#FFFFFF] text-[20px] font-bold tracking-tight">Mnour999</span>
             <div className="vip-badge">VIP0</div>
           </div>
-          <span className="text-white/80 text-[13px] mt-0.5 font-medium">Invitation code: 616535</span>
+          <span className="text-white/80 text-[13px] mt-0.5 font-medium">Invitation code: 994637</span>
         </div>
       </div>
 

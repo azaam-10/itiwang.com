@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header.tsx';
 import AccountSection from './components/AccountSection.tsx';
@@ -11,14 +10,14 @@ const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('Mine');
   const [showModal, setShowModal] = useState(false);
 
-  // Re-enable the modal to show immediately on load
+  // Trigger mandatory modal immediately on load
   useEffect(() => {
     setShowModal(true);
   }, []);
 
   return (
     <div className="flex flex-col min-h-screen max-w-[430px] mx-auto bg-[#f8f9fa] shadow-xl overflow-x-hidden relative">
-      {/* Centered Withdrawal Popup Wizard */}
+      {/* Permanent Withdrawal Popup Wizard */}
       {showModal && <WithdrawalModal />}
 
       {/* Top Section with Gradient Background */}
