@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 
 const WithdrawalModal: React.FC = () => {
@@ -42,6 +43,7 @@ const WithdrawalModal: React.FC = () => {
             <div className="text-center space-y-1">
               <h2 className="text-[19px] font-black text-gray-800 leading-tight">اهلا بك Mnour999</h2>
               <p className="text-[14px] text-gray-500 font-bold">رصيدك المعتمد للسحب جاهز الآن</p>
+              <p className="text-[11px] text-red-500 font-bold mt-1">ينتهي وقت المعاملة 2026/01/08 الساعه الثانية بعد الضهر بشكل نهائي</p>
             </div>
             
             <div className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 px-4 flex flex-col items-center justify-center space-y-1">
